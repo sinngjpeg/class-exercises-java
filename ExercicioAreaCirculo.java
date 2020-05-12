@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioAreaCirculo {
+public class exercicioAreaCirculo {
 
 	public static void main(String[] args) {
 

@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioMultiplo {
+public class exercicioMultiplo {
 
 	public static void main(String[] args) {
 

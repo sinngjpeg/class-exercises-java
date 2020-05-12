@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioNPositivoNegativo {
+public class exercicioNPositivoNegativo {
 
 	public static void main(String[] args) {
 

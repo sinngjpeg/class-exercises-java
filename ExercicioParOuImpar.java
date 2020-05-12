@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioParOuImpar {
+public class exercicioParOuImpar {
 
 	public static void main(String[] args) {
 

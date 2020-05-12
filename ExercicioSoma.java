@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ExercicioSoma {
+public class exercicioSoma {
 
 	public static void main(String[] args) {
 		
