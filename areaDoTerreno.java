@@ -16,7 +16,6 @@ public class areaDoTerreno {
 		comprimento = sc.nextDouble();
 		System.out.println("Digite o valor do metro quadrado: ");
 		metroQuadrado = sc.nextDouble();
-
 		area = largura * comprimento;
 		System.out.printf("AREA: %.2f%n", area);
 		preco = area * metroQuadrado;
