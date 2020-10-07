@@ -10,8 +10,12 @@
   <component name="ProjectId" id="1hbxC1LU2GC8n1lg3KT4Myu5DQs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-carros-springboot" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -44,6 +48,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2660" y="280" key="FileChooserDialogImpl" timestamp="1602076964701">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2660" y="280" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602076964701" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1600293816350">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -76,10 +84,10 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600293816350" />
-    <state x="2576" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1600293470254">
+    <state x="2576" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1602075895861">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2576" y="349" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600293470254" />
+    <state x="2576" y="349" key="com.intellij.ide.util.TipDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602075895861" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
