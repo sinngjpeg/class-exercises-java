@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/")
 public class IndexController {
 
-	@GetMapping()
-	public String get(){
-		return "API dos Carros";
-	}
+    @GetMapping
+    public String get(){
+        return "API dos Carros";
+    }
+
 
 }
-
-
