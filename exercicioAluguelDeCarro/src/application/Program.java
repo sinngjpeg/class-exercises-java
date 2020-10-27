@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 import model.entities.CarRental;
 import model.entities.Vehicle;
-import model.services.BrazilTexService;
+import model.services.BrazilTaxService;
 import model.services.RentalService;
 
 public class Program {
@@ -36,7 +36,7 @@ public class Program {
 		double pricePerDay = sc.nextDouble();
 		
 		//instancia 
-		RentalService rentalService = new RentalService(pricePerDay, pricePerHour, new BrazilTexService());
+		RentalService rentalService = new RentalService(pricePerDay, pricePerHour, new BrazilTaxService());
 
 		
 		rentalService.processInvoice(cr);
