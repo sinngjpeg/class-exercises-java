@@ -1,15 +1,27 @@
 package com.example.livros;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class LivroTest {
 
 
+    private Livro livro;
+
+    @BeforeEach
+    public void setUp(){
+
+        livro = new Livro();
+
+    }
+
     @Test
     public void deveCriarUmLivro(){
-        Livro livro = new Livro();
         livro.setId(1L);
         livro.setNome("Iracema");
         livro.setAutor("José de Alencar");
@@ -18,10 +30,6 @@ public class LivroTest {
 
     @Test
     public void deveRetornarUmLivro(){
-        Livro livro = new Livro();
-        livro.getId(1L);
-        livro.getNome("Iracema");
-        livro.getAutor("José de Alencar");
 
     }
 }
