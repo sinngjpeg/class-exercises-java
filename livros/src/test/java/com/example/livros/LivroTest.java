@@ -8,7 +8,7 @@ public class LivroTest {
     @Test
     public void deveCriarUmLivro(){
         Livro livro = new Livro();
-        livro.setId((long) 1);
+        livro.setId(1L);
         livro.setNome("Iracema");
         livro.setAutor("José de Alencar");
 
@@ -17,7 +17,7 @@ public class LivroTest {
     @Test
     public void deveRetornarUmLivro(){
         Livro livro = new Livro();
-        livro.getId((long) 1);
+        livro.getId(1L);
         livro.getNome("Iracema");
         livro.getAutor("José de Alencar");
     }
