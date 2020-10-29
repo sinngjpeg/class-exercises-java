@@ -2,6 +2,8 @@ package com.example.livros;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class LivroTest {
 
 
@@ -20,5 +22,6 @@ public class LivroTest {
         livro.getId(1L);
         livro.getNome("Iracema");
         livro.getAutor("José de Alencar");
+
     }
 }
