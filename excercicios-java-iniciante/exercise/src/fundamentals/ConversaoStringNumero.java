@@ -1,5 +1,7 @@
 package fundamentals;
 
+import java.math.BigDecimal;
+
 import javax.swing.JOptionPane;
 
 public class ConversaoStringNumero {
@@ -14,10 +16,10 @@ public class ConversaoStringNumero {
 		double numero2 = Double.parseDouble(valor2);
 
 		double soma = numero1 + numero2;
-		System.out.println("Soma é" + soma);
+		System.out.println("Soma é " + soma);
 		System.out.println("Media é " + soma /2);
 		
-		
+		//BigDecimal - utilizado para quando voce precisa do valor exato
 		
 	}
 }
