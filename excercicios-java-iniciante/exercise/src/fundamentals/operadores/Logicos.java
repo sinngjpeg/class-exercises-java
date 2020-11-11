@@ -15,7 +15,7 @@ public class Logicos {
 		System.out.println(!condicao2);
 		
 
-		System.out.println("Tabela verdade E"); 
+		System.out.println("Tabela verdade E (AND)"); 
 		System.out.println(true && true);
 		System.out.println(true && false);
 		System.out.println(false && true);
@@ -23,12 +23,18 @@ public class Logicos {
 		
 		
 
-		System.out.println("Tabela verdade OU"); 
+		System.out.println("\nTabela verdade OU (OR)"); 
 		System.out.println(true || true);
 		System.out.println(true || false);
 		System.out.println(false || true);
 		System.out.println(false || false);
 		
+		
+		System.out.println("\nTabela verdade OU Excluisivo (XOR)"); 
+		System.out.println(true ^ true);
+		System.out.println(true ^ false);
+		System.out.println(false ^ true);
+		System.out.println(false ^ false);
 		
 		
 		
