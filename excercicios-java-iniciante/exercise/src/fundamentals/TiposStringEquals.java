@@ -15,7 +15,8 @@ public class TiposStringEquals {
 		Scanner sc = new Scanner(System.in);
 
 		String s2 = sc.next();
-		System.out.println("2".equals(s2));
+		System.out.println("2"==s2.trim());
+		System.out.println("2".equals(s2.trim()));
 
 		sc.close();
 
