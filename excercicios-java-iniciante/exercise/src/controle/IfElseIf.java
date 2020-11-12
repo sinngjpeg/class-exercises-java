@@ -18,10 +18,13 @@ public class IfElseIf {
 			System.out.println("Conceito A");
 		} else if (nota >= 6.1) {
 			System.out.println("Conceito B");
-		} else if (nota >= 2.1) {
+		} else if (nota >= 4.1) {
 			System.out.println("Concreito C");
+		} else if (nota >= 2.1) {
+			System.out.println("Concreito D");
 		}
 
+		System.out.println("Fim");
 		sc.close();
 
 	}
