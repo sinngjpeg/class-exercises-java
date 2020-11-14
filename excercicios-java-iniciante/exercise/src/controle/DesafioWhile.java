@@ -13,7 +13,7 @@ public class DesafioWhile {
 		double total = 0;
 
 		while (nota != -1) {
-			System.out.println("Informe a nota: ");
+			System.out.println("Informe a nota (ou -1 para sair): ");
 			nota = sc.nextDouble();
 
 			if (nota <= 10 & nota >= 0) {
