@@ -35,7 +35,7 @@ public class SwitchCaseComBreak {
 			conceito = "E";
 			break;
 		default:
-			conceito = "nao informado";
+			conceito = "nao encontrado";
 		}
 
 		System.out.println("Conteito é " + conceito);
